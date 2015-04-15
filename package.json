@@ -1,0 +1,25 @@
+{
+  "name": "gulp-angular-jsdoc",
+  "version": "0.1.2",
+  "description": "Build docs for angularjs projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heymdall/gulp-angular-jsdoc"
+  },
+  "author": {
+    "name": "Aleksandr Kitov"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heymdall/gulp-angular-files/issues"
+  },
+  "dependencies": {
+    "angular-jsdoc": "^0.3.3",
+    "jsdoc": "^3.3.0-beta3",
+    "through2": "^0.6.3"
+  }
+}
