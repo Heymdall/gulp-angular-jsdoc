@@ -29,7 +29,12 @@ module.exports = function (dest) {
         ].concat(paths);
 
         command = command.join(' ');
-        exec(command, function () {
+        exec(command, {
+            cwd: __dirname
+        }, function (e) {
+            if (e) {
+                console.log(e);
+            }
             cb();
         });
     });

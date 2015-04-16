@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-jsdoc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Build docs for angularjs projects",
   "main": "index.js",
   "scripts": {
