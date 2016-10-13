@@ -16,8 +16,8 @@ module.exports = function (dest) {
         cb();
     }, function (cb) {
         var jsdocPath = path.resolve(__dirname, './node_modules/jsdoc/jsdoc.js'),
-            confPath = path.resolve(__dirname, './node_modules/angular-jsdoc/conf.json'),
-            templatePath = path.resolve(__dirname, './node_modules/angular-jsdoc/template');
+            confPath = path.resolve(__dirname, './node_modules/angular-jsdoc/common/conf.json'),
+            templatePath = path.resolve(__dirname, './node_modules/angular-jsdoc/angular-template/');
         var command = [
             jsdocPath,
             '-c',
